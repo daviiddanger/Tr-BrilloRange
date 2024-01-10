@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background: url(anime-girl-blonde-sports-car-4k-wallpaper-uhdpaper.com-838@0@i.jpg) no-repeat center;
+     /*https://www.uhdpaper.com/2023/12/anime-girl-blonde-sports-car-4k-8380i.html --link img original*/
+     background-size:cover;
+     min-height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.brightness-box{
+    width: 400px;
+    height: 60px;
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.fa-solid{
+    color: #000;
+    font-size: 20px;
+}
+
+.fa-regular{
+    color: #fff;
+    font-size: 20px;
+}
+
+.brightness-box i{
+    margin: 0 10px;
+}
+
+#range{
+    width: 100%;
+    height: 3px;
+    outline: none;
+}
+
+#range:hover{
+    cursor: pointer;
+}
